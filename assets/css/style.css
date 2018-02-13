@@ -1,0 +1,77 @@
+body {
+    background-color: white;
+    background: url("../images/intersection.png");
+    color: teal;
+}
+
+div.container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 960px;
+    height: 100%;
+  }
+  
+  img#crystal1,
+  img#crystal2,
+  img#crystal3,
+  img#crystal4 {
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+  }
+
+  .images {
+    min-height: 150px;
+    margin-top: 10%;
+    background-color:white;
+    border-style:solid;
+    border-color:blue;
+    border-width: 2px;
+  }
+  
+  img#crystal1 {
+      left: 0;
+      float: left;
+      position: relative;
+      margin-right: 0%;
+    }
+  
+  img#crystal2 {
+      position: relative;
+      margin-left: 5%;
+      margin-right: 2.5%;
+    }
+  
+  img#crystal3 {
+    position: relative;
+    margin-left: 1%;
+    margin-right: 2.5%;
+    }
+  
+  img#crystal4 {
+      right: 0;
+      position: relative;
+      float:right;
+    }
+  
+  h1 {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 5%;
+  }
+
+  #target-score, #wins, #losses, #total-score {
+    padding-right: 20px;
+    float: left;
+    font-size: 30px;
+  }
+
+  #target-score {
+    margin-left: 17%;
+  }
+
+  .stats {
+    color: blue;
+    font-style: oblique;
+    font-weight: bold;
+  }
