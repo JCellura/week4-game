@@ -2,38 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Cystals</title>
-  <!-- JQuery Link -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Bootstrap File -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
- <!-- My CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Javascript -->
-  <script type="text/javascript" src="assets/javascript/game1.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  <!-- rest and my CSS -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+
+   <!-- jQuery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+   <!-- Custom JavaScript -->
+   <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+  <title>Crystals Game | Joe Cellura</title>
 </head>
 <body>
-  <div id = 'container'>
-    <div>
-        <button id="crystal-1" class="btn btn-crystal" value="1" ><h1>Crystal1</h1></button>
-    </div>
-    <div>
-        <button id="crystal-2" class="btn btn-crystal" value="1" ><h1>Crystal2</h1></button>
-    </div>
-    <div>
-        <button id="crystal-3" class="btn btn-crystal" value="1" ><h1>Crystal3</h1></button>
-    </div>
-    <div>
-        <button id="crystal-4" class="btn btn-crystal" value="1" ><h1>Crystal4</h1></button>
+
+  <div class="container">
+
+    <h1>Crystals Cystals Crystals!!</h1>
+
+    <br/>
+    
+    <div class = "stats">
+        <div id="target-score"></div>
+        <div id="wins"></div>
+        <div id="losses"></div>
+        <div id="total-score"></div>
     </div>
 
-
-    <div class="panel-body">
-        <h1 id="random-number"></h1>
+    <div class = "images">
+        <img class = "image" id="crystal1" src="./assets/images/crystal1.jpg" alt="Crystal1"/>
+        <img class = "image" id="crystal2" src="./assets/images/crystal2.jpg" alt="Crystal"/>
+        <img class = "image" id="crystal3" src="./assets/images/crystal3.jpg" alt="Crystal3"/>
+        <img class = "image" id="crystal4" src="./assets/images/crystal4.jpeg" alt="Crystal4"/>
     </div>
+
   </div>
 
 </body>
-
 </html>
